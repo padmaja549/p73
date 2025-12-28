@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+	int a,b,swap();
+	clrscr();
+	a=5;
+	b=10;
+	printf("Value of a=%d & value of b=%d before swap ",a,b);
+	swap(a,b);
+	printf("nvalue of a=%d & b=%d after swap",a,b);
+	getch();
+}
+int swap(int x, int y)
+{
+	int temp;
+	temp = x;
+	x = y;
+	y = temp;
+}
